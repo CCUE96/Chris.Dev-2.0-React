@@ -1,15 +1,15 @@
-import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import { Container, Typography, Button, Grid } from '@mui/material';
-import resumePdf from '../assets/resume/ChristopherCuellarResume.pdf';
-import resumeImg from '../assets/images/resumeScreenshot.png'; // Adjust the path based on your project structure
+import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import { Container, Typography, Button, Grid } from "@mui/material";
+import resumePdf from "../assets/resume/ChristopherCuellarResume.pdf";
+import resumeImg from "../assets/images/resumeScreenshot.png"; // Adjust the path based on your project structure
 
 const Resume = () => {
   const downloadPdf = () => {
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.href = resumePdf;
-    link.setAttribute('download', 'ChristopherCuellarResume.pdf');
+    link.setAttribute("download", "ChristopherCuellarResume.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -25,14 +25,20 @@ const Resume = () => {
               Resume Page
             </Typography>
             <Typography variant="body1" gutterBottom>
-              If your interested give my resume a look
+              <Typography variant="body1" gutterBottom>
+                If you&apos;re interested give my resume a look
+              </Typography>
             </Typography>
             <Button variant="contained" color="primary" onClick={downloadPdf}>
               Download Resume PDF Here
             </Button>
           </Grid>
           <Grid item xs={12} md={6}>
-            <img src={resumeImg} alt="Resume" style={{ maxWidth: '100%', height: 'auto' }} />
+            <img
+              src={resumeImg}
+              alt="Resume"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
           </Grid>
         </Grid>
       </Container>
@@ -42,4 +48,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
