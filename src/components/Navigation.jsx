@@ -14,22 +14,22 @@ const Navigation = () => {
     <CustomAppBar position="fixed" sx={{ backgroundColor: '#00ffff' }}>
       <Toolbar sx={{ justifyContent: 'space-between' }}>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          <span style={{ color: '#8b74fe', fontWeight: 'bold' }}>C</span>
-          <span style={{ color: '#b39ddb', fontWeight: 'bold' }}>hris</span>.
-          <span style={{ color: '#8b74fe', fontWeight: 'bold' }}>D</span>
+          <span style={{ color: '#9932CC', fontWeight: 'bold' }}>C</span>
+          <span style={{ color: '#b39ddb', fontWeight: 'bold' }}>hris.</span>
+          <span style={{ color: '#9932CC', fontWeight: 'bold' }}>D</span>
           <span style={{ color: '#b39ddb', fontWeight: 'bold' }}>ev</span>
         </Typography>
         <div>
-          <Link component={RouterLink} to="/" sx={{ margin: 2, color: '#8b74fe', textDecoration: 'none' }}>
+          <Link component={RouterLink} to="/" sx={{ margin: 2, color: '#9932CC', textDecoration: 'none' }}>
             About Me
           </Link>
-          <Link component={RouterLink} to="/portfolio" sx={{ margin: 2, color: '#8b74fe', textDecoration: 'none' }}>
+          <Link component={RouterLink} to="/portfolio" sx={{ margin: 2, color: '#9932CC', textDecoration: 'none' }}>
             Projects
           </Link>
-          <Link component={RouterLink} to="/resume" sx={{ margin: 2, color: '#8b74fe', textDecoration: 'none' }}>
+          <Link component={RouterLink} to="/resume" sx={{ margin: 2, color: '#9932CC', textDecoration: 'none' }}>
             Resume
           </Link>
-          <Link component={RouterLink} to="/contact" sx={{ margin: 2, color: '#8b74fe', textDecoration: 'none' }}>
+          <Link component={RouterLink} to="/contact" sx={{ margin: 2, color: '#9932CC', textDecoration: 'none' }}>
             Contact
           </Link>
          
