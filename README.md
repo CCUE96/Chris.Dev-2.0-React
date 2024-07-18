@@ -12,6 +12,5 @@ i am happy to show you my journey over these past 6 months from No coding experi
 ## <ins>Projects<ins>
 ![Screenshot 2024-07-18 043200](https://github.com/user-attachments/assets/f95fdee8-248b-4850-a10a-b432b349af35)
 ## <ins>Resume<ins>
-![Screenshot 2024-07-18 051043](https://github.com/user-attachments/assets/4887a4bd-a37d-4d8b-93cc-ad9f67af51cd)
 
 
