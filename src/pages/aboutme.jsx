@@ -6,7 +6,8 @@ import Paper from '@mui/material/Paper';
 import Divider from '@mui/material/Divider';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import PlaceholderImage from '../assets/images/download.png';
+// import PlaceholderImage from '../assets/images/download.png';
+import ChrisHeroImage from '../assets/images/chris.png'
 
 
 const AboutMeSection = styled('section')({
@@ -29,7 +30,7 @@ const AboutMe = () => {
             <Divider />
             <Grid container spacing={2} alignItems="center">
               <Grid item xs={12} md={4}>
-                <img src={PlaceholderImage} alt="Placeholder" style={{ width: '100%', borderRadius: '8px' }} />
+                <img src={ChrisHeroImage} alt="Chris.Dev" style={{ width: '100%', borderRadius: '8px' }} />
               </Grid>
               <Grid item xs={12} md={8}>
                 {/* sperated into multiple paragrahs to fill out the page */}
