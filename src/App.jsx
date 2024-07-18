@@ -3,7 +3,7 @@ import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import AboutMe from './pages/aboutme'
 import Contact from './pages/contact'
 import Portfolio from './pages/portfolio' 
-// import Resume from './pages/resume'
+import Resume from './pages/resume'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
     <Route path='/' element ={<AboutMe />} />
     <Route path='/contact' element ={<Contact />} />
     <Route path='/portfolio' element ={<Portfolio />} />
-    {/* <Route path ='/resume' element ={<Resume />} /> */}
+    <Route path ='/resume' element ={<Resume />} />
 
    </Routes>
     </BrowserRouter>
