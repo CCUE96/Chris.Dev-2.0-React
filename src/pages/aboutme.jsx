@@ -32,10 +32,11 @@ const AboutMe = () => {
                 <img src={PlaceholderImage} alt="Placeholder" style={{ width: '100%', borderRadius: '8px' }} />
               </Grid>
               <Grid item xs={12} md={8}>
+                {/* sperated into multiple paragrahs to fill out the page */}
                 <Typography variant="body1" paragraph>
                   I am currently a Software Engineering student at UCONN, passionate about web development and building
                   scalable applications. My journey started with learning HTML, CSS, and JavaScript, and now I am
-                  exploring advanced topics in Full Stack Development.
+                  exploring advanced topics in Full Stack Development such as Python, TypeScript and more.
                 </Typography>
                 <Typography variant="body1" paragraph>
                   I am always eager to learn new technologies and stay updated with the latest trends in software
@@ -43,11 +44,11 @@ const AboutMe = () => {
                   solve real-world problems.
                 </Typography>
                 <Typography variant="body1" paragraph>
-                  Besides coding, I enjoy exploring new places, reading books, and playing soccer. Feel free to reach
+                  Besides coding, I enjoy film, Games, and Travel. Feel free to reach
                   out to me if you have any questions or collaboration opportunities.
                 </Typography>
                 <Typography variant="body1">
-                  Check out some of my projects below (more coming soon), and let's connect!
+                  Check out some of my projects by clicking the projects tab, I look forward to hearing from you
                 </Typography>
               </Grid>
             </Grid>
