@@ -20,7 +20,7 @@ const Footer = () => {
     <CustomFooter>
       <div>
         <Link
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/chris-c-377362319/"
           target="_blank"
           rel="noopener noreferrer"
           style={{ marginRight: "10px" }}
@@ -28,7 +28,7 @@ const Footer = () => {
           <LinkedInIcon style={{ fontSize: 32, color: "#9932CC" }} />
         </Link>
         <Link
-          href="https://github.com/"
+          href="https://github.com/CCUE96"
           target="_blank"
           rel="noopener noreferrer"
         >
