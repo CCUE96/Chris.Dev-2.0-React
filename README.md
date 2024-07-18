@@ -8,7 +8,7 @@ i am happy to show you my journey over these past 6 months from No coding experi
 
 ## <ins>Mockup<ins>
 ## <ins>About Me<ins>
-![Screenshot 2024-07-18 053531](https://github.com/user-attachments/assets/5f51d32f-fb78-4968-81e2-e4bca18e0c68)
+![Screenshot 2024-07-18 054219](https://github.com/user-attachments/assets/006b663d-5d1e-4794-b819-fe5753943984)
 ## <ins>Projects<ins>
 ![Screenshot 2024-07-18 043200](https://github.com/user-attachments/assets/f95fdee8-248b-4850-a10a-b432b349af35)
 ## <ins>Resume<ins>
