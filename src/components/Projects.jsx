@@ -49,7 +49,7 @@ const ProjectTitle = styled(Typography)({
   color: "#fff",
   fontWeight: "bold",
 });
-
+// mapping function for projectdata on the portfolio page
 const Projects = ({ projectsData }) => {
   return (
     <ProjectsSection id="projects" className="projects">
