@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Container, Typography, Button, Grid } from "@mui/material";
 import resumePdf from "../assets/resume/ChristopherCuellarResume.pdf";
-import resumeImg from "../assets/images/resumeScreenshot.png"; // Adjust the path based on your project structure
+import resumeImg from "../assets/images/resumeScreenshot.png";
 
 const Resume = () => {
   const downloadPdf = () => {

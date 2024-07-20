@@ -9,7 +9,7 @@ import DebateCafe from "../assets/images/DebateCafe.png";
 import MyTime from "../assets/images/MyTime.png";
 import QuizBoi from "../assets/images/QuizBoi.png";
 import AniName from "../assets/images/AniName.png";
-
+// array of my projects utilizing the map function on the projects component
 const Portfolio = () => {
   const projectsData = [
     {

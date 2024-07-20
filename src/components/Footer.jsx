@@ -14,7 +14,7 @@ const CustomFooter = styled("footer")({
   left: 0,
   width: "100%",
 });
-
+//  footer with material ui icons
 const Footer = () => {
   return (
     <CustomFooter>
