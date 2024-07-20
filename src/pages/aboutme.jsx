@@ -15,6 +15,7 @@ const AboutMeSection = styled('section')({
   backgroundColor: 'transparent',
   boxShadow: 'none',
 });
+
 const AboutMe = () => {
   return (
     <>
@@ -47,7 +48,7 @@ const AboutMe = () => {
                   out to me if you have any questions or collaboration opportunities.
                 </Typography>
                 <Typography variant="body1">
-                  Check out some of my projects by clicking the projects tab, I look forward to hearing from you
+                Explore my portfolio by visiting the Projects tab, or download my resume directly from the Resume page. If you&apos;re interested in collaborating or have any inquiries, feel free to reach out through the Contact page. I can&apos;t wait to connect with you!
                 </Typography>
               </Grid>
             </Grid>
