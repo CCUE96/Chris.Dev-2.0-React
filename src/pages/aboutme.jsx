@@ -1,12 +1,11 @@
 import React from 'react';
-import { styled } from '@mui/material/styles'; // Use styled from @mui/material/styles
+import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Divider from '@mui/material/Divider';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-// import PlaceholderImage from '../assets/images/download.png';
 import ChrisHeroImage from '../assets/images/chris.png'
 
 
@@ -16,7 +15,6 @@ const AboutMeSection = styled('section')({
   backgroundColor: 'transparent',
   boxShadow: 'none',
 });
-
 const AboutMe = () => {
   return (
     <>
